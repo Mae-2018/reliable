@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "BViewController.h"
+#import "CViewController.h"
 
 @interface ViewController ()
 
@@ -17,6 +19,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    BViewController *bVC = [[BViewController alloc]init];
+    [bVC BTest];
 }
 
 
